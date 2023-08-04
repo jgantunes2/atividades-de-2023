@@ -1,36 +1,37 @@
 #include<stdio.h>
 
-int main(void){
+int main(void) {
 
-float a ,b:inteiro
+	float a,b;
 
-printf("*********************************************************")
-printf(" Digite um número: ")
-scanf("%f",&a)
-printf("*********************************************************")
-printf(" Digite outro número: ")
-scanf("%f",&b)
-printf("*********************************************************")
+	printf("*********************************************************");
+	printf(" \nDigite um número: ");
+	scanf("%f",&a);
+	printf("*********************************************************");
+	printf(" \nDigite outro número: ");
+	scanf("%f",&b);
+	printf("*********************************************************");
 
-if (a = b) else
-          printf(" Erro de digitação!! Os números tem que ser diferentes")
-          printf()
-          printf("*********************************************************")
-          printf(" Digite novamente o primeiro número: ")
-          scanf("%f",&a)
-          printf("*********************************************************")
-          printf(" Digite novamente o segundo número: ")
-          scanf("%f",&b)
-          
-		  
-          if a>b else	  
-          printf("*********************************************************")
-          printf(" Primeiro número é maior ", a)
-          
-		  
-		  else
-          printf("*********************************************************")
-          printf(" Segundo número é maior", b)
-          printf("*********************************************************")
-          
+	if (a = b) {
+	
+			printf(" Erro de digitação!! Os números tem que ser diferentes");
+	printf("*********************************************************");
+	printf(" \nDigite novamente o primeiro número: ");
+	scanf("%f",&a);
+	printf("*********************************************************");
+	printf(" \nDigite novamente o segundo número: ");
+	scanf("%f",&b);
+}
+
+	if (a>b){
+	
+		printf("*********************************************************");
+	printf(" \nPrimeiro número é maior ", a);
+}
+
+	else
+		printf("*********************************************************");
+	printf(" \nSegundo número é maior", b);
+	printf("*********************************************************");
+
 }
