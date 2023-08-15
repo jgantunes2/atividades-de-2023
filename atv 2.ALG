@@ -1,22 +1,22 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 27/02/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
  sal, aum1 ,aum2 :real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreval("Digite o salário atual do funcionário")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+escreval("Digite o salÃ¡rio atual do funcionÃ¡rio")
 leia(sal)
 aum1<-sal*0.25
-escreval("O aumento é", aum1)
+escreval("O aumento Ã©", aum1)
 aum2<-sal+aum1
-escreval("O novo salário será de R$",aum2,"reais")
+escreval("O novo salÃ¡rio serÃ¡ de R$",aum2,"reais")
 
 
 
