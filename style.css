@@ -1,10 +1,18 @@
 *{
     margin: 0;
     padding: 0;
- }
+}
 
- body {
-    padding: 0;
-    margin: 0;
-    background-color: #fefefe;
- }
+.header{
+    background-color: rgb(43, 255, 0);
+    height: 150px;
+    display: flex;
+}
+.main{
+    background-color: rgb(255, 251, 0);
+    height: 645px;
+}
+.footer{
+    background-color: rgb(255, 0, 0);
+    height: 150px;
+}
