@@ -1,0 +1,4 @@
+// settings.gradle.kts
+
+// Define o nome do projeto raiz
+rootProject.name = "Minhabiblioteca"
